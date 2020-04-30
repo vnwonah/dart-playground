@@ -1,11 +1,11 @@
-/*  This test deserializing a nested 
+/*  This tests deserializing a nested 
   object structed json to corresponding 
   strongly typed object.
 
   Since Dart does not support generics this approach can be adopted.
   The performance implication is untested.
 
-  We are using the dio library here to mock our response
+  I am using the dio library here to mock an api response that fits my model objects
 */
 
 import 'package:dio/dio.dart';
